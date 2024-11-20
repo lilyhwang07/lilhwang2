@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Lily Hwang</title>
+
+    <style>
+        /* Body styling with a soft pastel gradient */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: rgb(239, 239, 250); /* very light pastel lavender */
+            background: linear-gradient(0deg, rgba(239, 239, 250, 1) 0%, rgba(220, 233, 240, 1) 100%); /* soft pastel gradient */
+            min-height: 100vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Styling for name with a soft pastel green */
+        #name {
+            color: #6f9f9f; /* pastel teal */
+            font-weight: 400;
+        }
+
+        /* Styling for title with a soft pastel peach */
+        #title {
+            color: #d7a4a4; /* pastel peach */
+        }
+
+        /* Styling for LinkedIn link with a soft pastel blue */
+        #linkedin {
+            color: #89a1c4; /* pastel blue */
+            font-size: 24px;
+        }
+
+        /* Container styling with white background and rounded corners */
+        #container {
+            background-color: white;
+            width: 400px;
+            max-width: 80vw;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 7px 29px 0px; /* subtle shadow */
+        }
+
+        /* Top section with an image */
+        #top-section {
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #top-section img {
+            width: 100%; /* Make the image fill the container */
+            height: 100%; /* Make the image cover the container height */
+            object-fit: cover; /* Ensure the image covers the entire section while maintaining aspect ratio */
+            object-position: center; /* Position the image in the center */
+        }
+
+        /* Bottom section styling with centered content */
+        #bottom-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 20px;
+        }
+
+        /* Styling for header and text */
+        h1, h2, p {
+            margin: 10px 0;
+        }
+
+        /* Link styling for subtle pastel look */
+        a {
+            text-decoration: none;
+            color: #89a1c4; /* pastel blue */
+            font-size: 16px;
+        }
+
+        a:hover {
+            color: #6b7e9b; /* darker pastel blue on hover */
+        }
+    </style>
+  
+</head>
+
+<body>
+      <div id="container">
+          <div id="top-section">
+              <!-- Image with the provided URL -->
+              <img src="https://images.unsplash.com/photo-1612540943832-09d119939e87?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Neutral Pastel Image">
+          </div>
+    <div id="bottom-section">
+      <h1 id="name">Lily Hwang</h1>
+      <h2 id="title">Student Pharmacist</h2>
+      <a id="linkedin" href="https://www.linkedin.com/in/lily-hwang-46a56a219/"
+        target="_blank"
+        ><i class="fa fa-linkedin-square"></i></a>
+    </div>
+  </div>
+</body>
+</html>
